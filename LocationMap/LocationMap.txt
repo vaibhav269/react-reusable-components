@@ -1,0 +1,9 @@
+module required = 'google-map-react'
+
+Use : - To show the a map with location as specified by lat,lng and zoom level
+
+syntax :-
+
+<LocationMap center={{lat: 29.8543,lng: 77.8880 }}  zoom={11} keyVal = 'AIzaSyC83dIZlSqAHLzUp58xsJXLE74Z72nB0K8'/>
+
+keyVal : -  google Maps API key

@@ -1,0 +1,4 @@
+Pass the 'img','heading' and 'content' prop to specify the title 
+example:- For the given image use as
+<Media img = {pic1} heading = "Heading One" content="Pass the content here" key = "unique key for each card"/>
+where img is imported as : -  import pic1 from '../../asset/images/sampleRec1.jpg';

@@ -1,0 +1,21 @@
+Use : - Navigation bar with logo on left and route,buttons on the right side
+
+syntax :-
+
+<Nav navRouteData = {navRouteData}  navButtonData = {navButtonData}/>
+
+Where,
+navRouteData : [                
+                {to:'/',name:'Three',key:'r1'},
+                {to:'/one',name:'One',key:'r2'},
+                {to:'/two',name:'Two',key:'r3'}
+            ]
+
+navButtonData : [{
+                onClick:this.log,	//function
+                name:'Hell',
+                key:'b1'
+            }]
+
+NOTE:-
+If any of the above are not required just supply a blank array

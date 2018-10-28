@@ -1,0 +1,4 @@
+Use : - Simple message to admin option as a review
+
+syntax :-
+ <MessageMe />
